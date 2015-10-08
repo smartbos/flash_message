@@ -1,0 +1,19 @@
+{
+    "name": "smartbos/flash_message",
+    "description": "Store message in session and delete it when it's used once. (NItIt's a sample code for a book, not for production)",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hyunseok Lee",
+            "email": "smartbosslee@gmail.com",
+            "homepage" : "http://leehyunseok.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ModernPUG\\FlashMessage\\": "/"
+        }
+    }
+}
